@@ -76,6 +76,7 @@ namespace net_labs
                 i++;
             }
 
+            //Exercise 3
             //reverse values in list
             minList.Reverse();
 
@@ -84,9 +85,18 @@ namespace net_labs
 
             //print sum of list
             Console.WriteLine("\n Sum of list is - " + minList.Sum());
-           
 
-        
+            //remove items from index -3; positions 5
+         
+            minList.RemoveRange(3, 5);
+          
+            //print result efter
+            for (int jk = 0; minList.Count > jk; jk++)
+            {
+                Console.WriteLine(jk + "    " + minList[jk]);
+            }
+
+
 
             Console.ReadKey();
 
