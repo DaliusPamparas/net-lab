@@ -41,6 +41,27 @@ namespace Net_lab_4
                     Console.WriteLine($"\n Student {searchkey} is in dictionary");
             }
 
+            //search for value
+            var searchvalue = 30;
+            foreach (KeyValuePair<string, int> item in students)
+            {
+                if (item.Value == searchvalue)
+                {
+                    
+                    Console.WriteLine($"\n Grade is in dictionary: {item.Key} --- {item.Value}");
+                }
+                    
+            }
+
+            //remove key+value from dictionary
+            students.Remove("Anna");
+
+            ////print dictionary
+            //foreach (KeyValuePair<string, int> item in students)
+            //{
+            //    Console.WriteLine(item.Key + "                " + item.Value);
+            //}
+
             Console.ReadLine();
 
 
