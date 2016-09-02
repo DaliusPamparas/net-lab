@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-labs", "Net-labs\Net-labs.csproj", "{65FF49AC-DE37-4089-B0E0-5BD10CB6A632}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-lab 2-3", "Net-labs\Net-lab 2-3.csproj", "{65FF49AC-DE37-4089-B0E0-5BD10CB6A632}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
