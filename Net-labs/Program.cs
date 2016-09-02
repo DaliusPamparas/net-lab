@@ -30,7 +30,9 @@ namespace net_labs
                 Console.WriteLine("List har värde 7");
             }
 
+           
 
+            Console.WriteLine(minList.Contains(33) ?"list contains number 33 " : "list does not contains number 33");
 
             Console.ReadKey();
 
