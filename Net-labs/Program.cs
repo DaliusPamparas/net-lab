@@ -28,19 +28,12 @@ namespace net_labs
             List<int> andraList = new List<int>() { 1, 2, 3, 4, 5, 6 };
             minList.AddRange(andraList);
 
-            //print list
-            var i = 0;
-            foreach (int number in minList)
-            {
-
-                Console.WriteLine(i + "   " + number.ToString());
-                i++;
-            }
+           
 
             //check does values included to list and print resultat
             if (minList.Contains(7))
             {
-                Console.WriteLine("List har värde 7");
+                Console.WriteLine("List have value 7");
             }
 
            //2way to doit
@@ -61,6 +54,40 @@ namespace net_labs
             {
                 Console.WriteLine(j+"    "+ minList[j]);
             }
+
+            //remove number at position 3
+            minList.RemoveAt(2);
+
+            Console.WriteLine("\n \n" );
+            ////print sorted list to test
+            //for (int j = 0; minList.Count > j; j++)
+            //{
+            //    Console.WriteLine(j + "    " + minList[j]);
+            //}
+
+            //print list with foreatch
+
+          
+            var i = 0;
+            foreach (int number in minList)
+            {
+
+                Console.WriteLine(i + "     " + number.ToString());
+                i++;
+            }
+
+            //reverse values in list
+            minList.Reverse();
+
+            //print biggest value
+            Console.WriteLine("\n Biggest value - " + minList.Max());
+
+            //print sum of list
+            Console.WriteLine("\n Sum of list is - " + minList.Sum());
+           
+
+        
+
             Console.ReadKey();
 
         }
