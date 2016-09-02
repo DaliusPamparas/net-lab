@@ -62,6 +62,9 @@ namespace Net_lab_4
             //    Console.WriteLine(item.Key + "                " + item.Value);
             //}
 
+            //some funktions till
+            
+
             Console.ReadLine();
 
 
