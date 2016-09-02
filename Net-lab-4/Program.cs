@@ -33,7 +33,13 @@ namespace Net_lab_4
                 Console.WriteLine(item.Key + "                " + item.Value);
             }
 
-
+            //search for key
+            var searchkey = "Jonas";
+            foreach(KeyValuePair<string,int> item in students)
+            {
+               if(item.Key == searchkey)
+                    Console.WriteLine($"\n Student {searchkey} is in dictionary");
+            }
 
             Console.ReadLine();
 
