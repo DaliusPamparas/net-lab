@@ -19,7 +19,10 @@ namespace net_labs
              minList.Add(7);
             minList.Add(25);
             minList.Add(15);
-           
+            minList.Add(15);
+            minList.Add(2);
+            minList.Add(9);
+
             //creating other list
             //adding other list to first via .AddRange
             List<int> andraList = new List<int>() { 1, 2, 3, 4, 5, 6 };
@@ -53,7 +56,11 @@ namespace net_labs
                     minList.RemoveAt(j);
                 }
             }
-
+            //print sorted list
+            for(int j=0; minList.Count > j; j++)
+            {
+                Console.WriteLine(j+"    "+ minList[j]);
+            }
             Console.ReadKey();
 
         }
