@@ -55,14 +55,20 @@ namespace Net_lab_4
 
             //remove key+value from dictionary
             students.Remove("Anna");
+
+            //reverse dictionary
             students.Reverse();
+
+            //chech with try get value
             int result;
             if (students.TryGetValue( "Jonas", out result ))
                 Console.WriteLine($"when key is Jonas-  {result}");
             else Console.WriteLine("There is no such key");
 
-            
+            //count numver of values
+            int numberOfStudents = students.Count;
 
+            Console.WriteLine($"Number of students-{numberOfStudents}" );
             Console.ReadLine();
 
 
