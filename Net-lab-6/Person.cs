@@ -8,9 +8,16 @@ namespace Net_lab_6
 {
     class Person
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public int age { get; set; }
+        public string firstName;
+        public string lastName;
+        public int age;
+
+        public Person(string firstName, string lastName, int age)
+        {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.age = age;
+        }
 
     }
 }
