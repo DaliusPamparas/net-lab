@@ -13,9 +13,10 @@ namespace Extension_methods
         {
             Console.WriteLine("Extention methods");
            string myInt = "12345";
-           
-            Console.WriteLine( myInt.ReverseString());
+            myInt.ReverseString();
             Console.ReadKey();
+            
+
         }
         
     }

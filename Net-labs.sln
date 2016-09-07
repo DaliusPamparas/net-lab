@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "just-test", "just-test\just
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension-methods", "Extension-methods\Extension-methods.csproj", "{0A8C9113-0BDB-443F-AA4D-2FF468D4C1FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension-methods-2", "Extension-methods-2\Extension-methods-2.csproj", "{CB1EBCF9-A574-4192-933B-A5CA25E8BB5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{0A8C9113-0BDB-443F-AA4D-2FF468D4C1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A8C9113-0BDB-443F-AA4D-2FF468D4C1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A8C9113-0BDB-443F-AA4D-2FF468D4C1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB1EBCF9-A574-4192-933B-A5CA25E8BB5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB1EBCF9-A574-4192-933B-A5CA25E8BB5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB1EBCF9-A574-4192-933B-A5CA25E8BB5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB1EBCF9-A574-4192-933B-A5CA25E8BB5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
