@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-lab-7", "Net-lab-6\Net-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-lab-8", "Net-lab-8\Net-lab-8.csproj", "{213C3B56-35CA-4F31-A35F-3243EDE78D3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "just-test", "just-test\just-test.csproj", "{A12B6A52-4511-46A0-AB87-F94D7F742A1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension-methods", "Extension-methods\Extension-methods.csproj", "{0A8C9113-0BDB-443F-AA4D-2FF468D4C1FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{213C3B56-35CA-4F31-A35F-3243EDE78D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{213C3B56-35CA-4F31-A35F-3243EDE78D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{213C3B56-35CA-4F31-A35F-3243EDE78D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A12B6A52-4511-46A0-AB87-F94D7F742A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A12B6A52-4511-46A0-AB87-F94D7F742A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A12B6A52-4511-46A0-AB87-F94D7F742A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A12B6A52-4511-46A0-AB87-F94D7F742A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A8C9113-0BDB-443F-AA4D-2FF468D4C1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A8C9113-0BDB-443F-AA4D-2FF468D4C1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A8C9113-0BDB-443F-AA4D-2FF468D4C1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A8C9113-0BDB-443F-AA4D-2FF468D4C1FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

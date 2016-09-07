@@ -11,6 +11,8 @@ namespace Net_lab_8
         static void Main(string[] args)
         {
             List<int> myCollection = new List<int>();
+            Fill fill = new Fill();
+            
 
         }
     }
