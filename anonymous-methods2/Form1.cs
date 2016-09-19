@@ -14,7 +14,7 @@ namespace anonymous_methods2
     {
         public Form1()
         {
-            InitializeComponent();
+            
             Button btnHello = new Button();
             btnHello.Text = "Hello";
 
@@ -24,7 +24,8 @@ namespace anonymous_methods2
                     MessageBox.Show("Nice blah blah");
                 };
             Controls.Add(btnHello);
-            
+           
+
         }
     }
 }
