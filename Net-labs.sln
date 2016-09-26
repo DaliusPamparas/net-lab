@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validation1", "Validation1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test3", "test3\test3.csproj", "{1BC1EE88-878B-4076-AF0A-CE94776E9799}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bindning-sql-test1", "Bindning-sql-test1\Bindning-sql-test1.csproj", "{BC9B5415-A27E-4D89-9185-790318BA9D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Error-404", "Error-404\Error-404.csproj", "{7E5E94D8-2D4F-45F5-B2A8-61BA2F27A948}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,14 @@ Global
 		{1BC1EE88-878B-4076-AF0A-CE94776E9799}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BC1EE88-878B-4076-AF0A-CE94776E9799}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BC1EE88-878B-4076-AF0A-CE94776E9799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9B5415-A27E-4D89-9185-790318BA9D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9B5415-A27E-4D89-9185-790318BA9D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9B5415-A27E-4D89-9185-790318BA9D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9B5415-A27E-4D89-9185-790318BA9D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E5E94D8-2D4F-45F5-B2A8-61BA2F27A948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E5E94D8-2D4F-45F5-B2A8-61BA2F27A948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E5E94D8-2D4F-45F5-B2A8-61BA2F27A948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E5E94D8-2D4F-45F5-B2A8-61BA2F27A948}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
